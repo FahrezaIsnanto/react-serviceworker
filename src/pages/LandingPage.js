@@ -7,7 +7,7 @@ export default function LandingPage() {
   const [data, setData] = useState(null);
   const [isLoaded, setisLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [query, setQuery] = useState("One Piece");
+  const [query, setQuery] = useState("Ultraman");
   // Modal
   const [modalShow, setModalShow] = useState(false);
   const [modalItem, setModalItem] = useState(null);
